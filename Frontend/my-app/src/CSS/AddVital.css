@@ -1,0 +1,83 @@
+
+.add-vital-container {
+  background: #fff;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.add-vital-container h2 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+.add-vital-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.add-vital-container label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+  display: block;
+}
+
+.add-vital-container input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 95%;
+}
+
+.add-vital-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.add-vital-container button:hover {
+  background-color: #4cae4c;
+}
+
+.add-vital-container p {
+  color: #d9534f;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #d9534f;
+  border-radius: 5px;
+  
+}
+
+
+@media (max-width: 768px) {
+  .add-vital-container {
+    width: calc(100% - 40px);
+    margin: 50px 20px;
+    padding: 15px;
+  }
+}
+
+

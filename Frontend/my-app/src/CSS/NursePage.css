@@ -1,0 +1,87 @@
+
+
+.nurse-page-navigation {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 2rem; 
+  text-align: left; 
+}
+
+.nurse-page-navigation h2 {
+  font-size: 2rem; 
+  color: #000000; 
+  margin-bottom: 1rem;
+}
+
+.nurse-page-navigation p {
+  color: #6c757d; 
+  line-height: 1.6; 
+  margin-bottom: 2rem; 
+}
+
+.nurse-page-navigation h3 {
+  font-size: 1.5rem;
+  color: #000000; 
+  margin-bottom: 1.5rem;
+}
+
+.nurse-page-navigation ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0; 
+}
+
+.nurse-page-navigation li {
+  background: #f8f9fa; 
+  border-radius: 0.5rem; 
+  margin-bottom: 1.5rem; 
+  padding: 1rem; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s ease-in-out; 
+}
+
+.nurse-page-navigation a {
+  display: flex; 
+  align-items: center; 
+  text-decoration: none; 
+  color: #007bff; 
+}
+
+.nurse-page-navigation a:hover {
+  transform: translateY(-5px); 
+}
+
+.nurse-page-navigation img {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem; 
+}
+
+.nurse-page-navigation span {
+  font-weight: bold;
+  font-size: 1.1rem; 
+}
+
+@media (max-width: 768px) {
+  .nurse-page-navigation {
+    padding: 1rem;
+  }
+
+  .nurse-page-navigation h2 {
+    font-size: 1.75rem;
+  }
+
+  .nurse-page-navigation h3 {
+    font-size: 1.25rem;
+  }
+
+  .nurse-page-navigation a {
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+
+  .nurse-page-navigation img {
+    margin-right: 0;
+    margin-bottom: 0.5rem; 
+  }
+}
