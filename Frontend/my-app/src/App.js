@@ -14,7 +14,7 @@ import AddDailyInfoPage from './patient/add-daily-info';
 import SymptomsChecklistPage from './patient/symptoms-checklist'; 
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql',
+  uri: 'https://comp308-finalproject-backend.onrender.com/graphql',
   cache: new InMemoryCache(),
 });
 
